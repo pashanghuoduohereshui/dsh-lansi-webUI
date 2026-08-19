@@ -1,0 +1,19 @@
+Rance Crimson Adventure skin
+
+This plugin's code is derived from the BSD-3-Clause licensed
+`dsh-maid-whale-webUI` (https://github.com/yunxiiQwQ/dsh-maid-whale-webUI/) by
+yunxi. The original copyright notice is retained in `LICENSE`, and this theme
+only replaces the visual styles, static assets, and decorative elements.
+
+The background illustration (`assets/background/rance-35th-group.jpeg`), the
+pink-haired Q-version mascot (`assets/mascot/rance-mascot.png`), and the
+interface reference were supplied by the user as the visual reference for this
+theme. This notice does not claim or imply a license or redistribution right
+for those reference images.
+
+The RPG ornament artwork shipped in `assets/ornaments` (sword emblem, red
+crest, sword, heart, flame, red orb) was drawn locally as simple vector icons
+for this theme.
+
+This notice records the immediate development sources. It does not grant or
+imply a license for third-party artwork, names, or marks depicted by them.

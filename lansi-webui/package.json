@@ -1,0 +1,56 @@
+{
+  "name": "@dsh-external/dsh-client-ui-skin-lansi-webui",
+  "description": "Rance-inspired crimson-and-black adventure skin for the DSH web GUI with a pink-haired Q-version page-edge mascot",
+  "author": "pashanghuoduohereshui",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./skin.json": "./skin.json",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "scripts": {
+    "art:embed": "node scripts/embed.mjs",
+    "build": "tsdown",
+    "watch": "tsdown --watch",
+    "test": "vitest run"
+  },
+  "license": "BSD-3-Clause",
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  },
+  "devDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "jsdom": "29.1.1",
+    "lightningcss": "^1.32.0",
+    "tsdown": "^0.22.2",
+    "vitest": "^4.1.8"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "skin.json",
+    "assets",
+    "build",
+    "scripts",
+    "src",
+    "tests",
+    "README.md",
+    "README.en.md",
+    "LICENSE",
+    "NOTICE"
+  ]
+}

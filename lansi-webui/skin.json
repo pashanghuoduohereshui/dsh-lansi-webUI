@@ -1,0 +1,23 @@
+{
+  "id": "lansi-webui",
+  "name": "兰斯 红黑冒险",
+  "nameEn": "Rance Crimson Adventure",
+  "author": "pashanghuoduohereshui",
+  "tagline": "红黑冒险、深红徽章与页边粉发 Q 版角色",
+  "description": "面向 DeepSeek Harness Web UI 的兰斯系列红黑冒险主题：深红主色、半透明深黑暗红毛玻璃面板、浅米白文字，粉发 Q 版角色安静地停在页面左下角。",
+  "tags": [
+    "rance",
+    "crimson",
+    "adventure",
+    "rpg",
+    "mascot"
+  ],
+  "accent": "#c02a2a",
+  "bodyAttr": "data-dsh-lansi",
+  "package": "@dsh-external/dsh-client-ui-skin-lansi-webui",
+  "wiring": {
+    "id": "ui-skin-lansi-webui",
+    "bundleWired": false
+  },
+  "order": 10
+}
